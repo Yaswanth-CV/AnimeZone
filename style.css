@@ -1,0 +1,121 @@
+
+
+
+
+body{
+    height: 1000px;
+   
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url("background1.jpg" );
+    background-repeat: no-repeat;
+    background-size:1600px 1200px;
+    
+   
+} 
+
+.container{
+    /* navbar */
+    background-color: rgba(21, 17, 17, 0.5);
+   
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   position: sticky;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+}
+
+.home{
+    text-decoration: none; 
+     color: whitesmoke;
+    font-weight: bold;
+}
+
+.home:hover{
+    color:rgb(214,92,92) ;
+}
+
+.box{
+    /* elements in navbar */
+    color: whitesmoke;
+   font-weight: bold;
+    display:inline-flex;
+    margin: 20px 33px;
+    cursor: pointer;
+}
+.box:hover{
+    color: rgb(214, 92, 92);
+}
+
+#logo{
+    /* side image logo  */
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    left: 2px;      
+}
+.box1{
+    /* border: 2px solid rgb(16, 224, 16); */
+    height: 770px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(251, 248, 248,60.0);
+    /* background: rgb(31, 135, 215); */
+    mix-blend-mode:soft-light;
+    font-size: 85px;
+    font-family: 'Black Ops One', cursive;
+    font-weight:1000px ;   
+}
+
+
+#link{
+    background-color: rgb(251, 108, 108);
+    height: 50px;
+    width: 110px;
+    border-radius: 20px;
+}
+.categorie{
+    border: 2px solid blue;
+    background-color:red;
+    height: 359px;
+    
+   
+}
+.cat{
+    color: rgb(248, 120, 81);
+    font-size: xx-large;
+    height: 50px;
+    margin:120px 120px ;
+    border-radius: 15px;
+    background-color: rgb(53, 56, 56);
+   
+    
+}
+
+
+.categ{
+    /* position:relative; */
+    /* top: 10px; */
+    color: rgb(255, 255, 255);
+    line-height: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-size:xx-large;
+    font-family: 'Tourney', cursive;
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(245, 118, 87);
+}
+
+.links:hover{
+    color:whitesmoke;
+}
+
+.cat:hover{
+    background-color: rgb(245, 118, 87);
+}

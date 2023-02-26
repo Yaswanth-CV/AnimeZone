@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background:linear-gradient(rgb(249, 162, 0),rgb(255, 0, 0),rgb(0, 0, 0));
+    height: 3900px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    /* navbar */
+    background-color: rgba(21, 17, 17, 0.5);
+   
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   position:relative;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+}
+
+.home{
+    text-decoration: none; 
+     color: whitesmoke;
+    font-weight: bold;
+}
+
+.home:hover{
+    color:rgb(214,92,92) ;
+}
+
+.box{
+    /* elements in navbar */
+    color: whitesmoke;
+   font-weight: bold;
+    display:inline-flex;
+    margin: 20px 33px;
+    cursor: pointer;
+}
+.box:hover{
+    color: rgb(214, 92, 92);
+}
+
+#logo{
+    /* side image logo  */
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    left: 2px;      
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background:linear-gradient(rgb(202, 139, 87),rgb(208, 159, 90),rgb(236, 180, 111),rgb(233, 179, 113));
+    min-width: 120px;
+    top: 30px;
+    z-index: 1;
+  }
+  .dropdown-content1{
+    display: block;
+  } 
+
+  .ddcss{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+  }
+
+  /* ---------------------------------------------------------------------------- */
+
+.tophead{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.topb{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+.segment1{
+    background-image:linear-gradient(rgb(0, 0, 0,0.7),rgba(0, 0, 0, 0.3)), url("bgnarutoblur.jpg")  ;
+    /* display: flex; */
+    
+    min-height: 130vh;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    /* background-size:1520px 400px; */
+    background-size:cover;    
+}
+
+.imgcont{
+    /* border: 2px solid rgb(32, 155, 238); */
+   
+    display: inline-block;
+    width: 400px;
+    height: 600px; 
+    background-color: rgba(0, 0, 0, 0.2);
+ 
+}
+ 
+.ep{
+    margin-left: 90px;
+    color: rgb(255,255,255,0.5);    
+}
+
+.ep2{
+    margin-left:40px ;
+    color: rgb(255,255,255,0.5);
+}
+
+.ep3{
+    margin-left: 40px;
+    color: rgb(255,255,255,0.5);
+}
+
+.middle{
+    /* border: 2px solid rgb(255, 60, 0); */
+    display: inline-block;
+    width: 750px;
+    height: 600px;
+    position: absolute;
+    /* padding-top: 447px; */
+}
+
+.onepic{
+    width: 300px;
+    height: 450px; 
+    margin-left: 50px; 
+    margin-top: 75px;
+}
+
+.heading{
+    font-size:50px;
+    display: inline-block;
+    margin-top: 90px;
+    color: rgb(255, 130, 84);
+    margin-left: 10px;
+    /* border: 2px solid rgb(128, 0, 96); */
+}
+
+.matter{
+    font-size: 25px;
+    /* border: 2px solid green; */
+    width: 1500px;
+    
+}
+
+.matter1{
+    display: flex;
+    width: 750px;
+    /* border: 2px solid rgb(14, 187, 210); */
+    height: 200px;
+    margin: auto;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 5px;
+}
+
+.article{
+    color: orange;
+    /* border: 2px solid rgb(177, 255, 9); */
+    display: inline-block;
+    position:absolute;
+    /* float: left; */
+    width: 350px;  
+    right: 0px;
+    height: 600px;
+    /* top: 0px; */
+    background-color: rgb(22, 23, 23,0.2);
+
+}
+
+.rating{
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.g{
+    /* border: 2px solid rgb(42, 22, 216); */
+    position: absolute;
+    bottom: 180px;
+    height: 60px;
+}
+
+.bold{
+    font-weight:1000;
+}
+
+.genre{
+    margin: 7px 15px;
+    /* border: 2px solid black; */
+    padding: 2px 2px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128,0.7);
+}
+
+.sameCont{
+    color: rgb(213, 205, 205);
+    /* border: 2px solid black; */
+    font-size:22px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.share{
+    /* border: 2px solid rgb(14, 211, 93); */
+    margin-top: 80px;
+    font-family: 'Black Ops One', cursive;
+    font-size:larger;
+    height: 90px;
+}
+
+.emoji{
+    display: inline-block;
+    /* border: 2px solid rgb(43, 100, 18); */
+    position: absolute;
+    /* top: 0px; */
+    left: 40px;
+    bottom: -17px;
+}
+
+.btdec{
+    border-radius: 20px;
+    background-color: rgb(247, 120, 74);
+    color: rgb(253, 251, 250);
+    border: none;
+}
+
+.btdec:hover{
+    background-color: black;
+    color: rgb(245, 123, 78);
+}
+
+
+.lastb{
+    /* border: 2px solid rgb(220, 30, 226); */
+    margin-top: 20px;
+}
+
+.totInf{
+    /* border: 2px solid black; */
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width:915px;
+    position: absolute;
+    height: 353px;
+    text-align: left;
+    /* background-color: rgb(240, 248, 255); */
+    /* opacity: 0.2; */
+    font-weight: 600;
+   margin-left: 20px;
+}
+
+.totmat{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.utubevid{
+    /* border: 2px solid rgb(253, 62, 62); */
+    color: rgb(252, 252, 252,0.5);
+    display:inline-block;
+    position:relative;
+    left: 935px;
+    height: 460px;
+    width: 560px;
+    background-color: rgb(22, 23, 23,0.2);
+
+    
+}
+
+iframe{
+    margin-left:30px;
+    margin-top: 40px;
+
+}
+
+.vid1{
+    margin-top: 50px;
+}
+
+/* ***naruto */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* *** one piece */
+
+.segment2{
+    background-image:linear-gradient(rgb(0, 0, 0,0.7),rgba(0, 0, 0, 0.3)), url("bgonepieceblur.jpg")  ;
+    /* display: flex; */
+    
+    min-height: 140vh;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    /* background-size:1520px 400px; */
+    background-size:cover;    
+}
+
+.utubevid2{
+    /* border: 2px solid rgb(253, 62, 62); */
+    color: rgb(252, 252, 252,0.5);
+    display:inline-block;
+    position:relative;
+    left: 935px;
+    height:540px;
+    width: 560px;  
+    background-color: rgb(22, 23, 23,0.2);
+}
+
+.vid2{
+    margin-top: 60px;
+}
+
+.vid22{
+    margin-top: 60px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ***demon slayer */
+
+.segment3{
+    background-image:linear-gradient(rgb(0, 0, 0,0.7),rgba(0, 0, 0, 0.3)), url("bgdslayerblur.jpg")  ;
+    /* display: flex; */
+    
+    min-height: 140vh;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    /* background-size:1520px 400px; */
+    background-size:cover;    
+}
+
+.utubevid3{
+    /* border: 2px solid rgb(253, 62, 62); */
+    color: rgb(252, 252, 252,0.5);
+    display:inline-block;
+    position:relative;
+    left: 830px;
+    height: 540px;
+    width: 560px;
+    background-color: rgb(22, 23, 23,0.2);  
+}
+
+.vid3{
+    margin-top: 50px;
+}

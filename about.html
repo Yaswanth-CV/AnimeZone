@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Page</title>
+    <style>
+        body {
+            height: 1000px;
+
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("background1.jpg");
+            background-repeat: no-repeat;
+            background-size: 1600px 1200px;
+
+
+        }
+
+        .container {
+            /* navbar */
+            background-color: rgba(21, 17, 17, 0.5);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+
+        .home {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+
+        .home:hover {
+            color: rgb(214, 92, 92);
+        }
+
+        .box {
+            /* elements in navbar */
+            color: whitesmoke;
+            font-weight: bold;
+            display: inline-flex;
+            margin: 20px 33px;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            color: rgb(214, 92, 92);
+        }
+
+        #logo {
+            /* side image logo  */
+            border-radius: 70px;
+            height: 70px;
+            width: 70px;
+            position: absolute;
+            left: 2px;
+        }
+
+        .tophead {
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+
+        }
+
+        .topb {
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+        }
+
+        .aboutmat{
+            font-size: 40px;
+            color: rgb(214, 214, 214);
+        }
+
+        .dropdown-content {
+    display: none;
+    position: absolute;
+    background:linear-gradient(rgb(202, 139, 87),rgb(208, 159, 90),rgb(236, 180, 111),rgb(233, 179, 113));
+    min-width: 120px;
+    top: 30px;
+    z-index: 1;
+  }
+  .dropdown-content1{
+    display: block;
+  } 
+
+  .ddcss{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+  }
+    </style>
+</head>
+
+<body>
+    <div class="tot1container">
+        <div class="container">
+
+            <img src="https://wallpapercave.com/wp/wp8546924.jpg" alt="image" id="logo">
+            <div class="box"><a class="home" href="index.html">HOME</a></div>
+            <div class="box">ABOUT</div>
+            <div class="box">
+                <a href="#" class="home" id="b">Categories</a>
+                <ul class="dropdown-content" id="a">
+                  <li><a class="ddcss" href="action.html">Action</a></li>
+                  <li><a class="ddcss"href="comedy.html">Comedy</a></li>
+                  <li><a class="ddcss"href="thriller.html">Thriller</a></li>
+                  <li><a class="ddcss"href="movies.html">Movies</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <span class="tophead"> <span style="font-weight: 900;
+        color: orangered;"> About Page</span> </span>
+        <div class="aboutmat">
+            &#9734 Welcome to our anime website! Here you will find a vast collection of information and resources about anime,
+            the popular Japanese animation art form that has captured the hearts of millions around the world. <br> <br>
+
+
+            &#9734 We also provide a comprehensive database of anime series and movies, including detailed information about
+            their plots, characters, and production staff. You can browse through our extensive library and discover new
+            anime titles to watch and enjoy.
+
+            <br> <br>
+            &#9734 At our website, we believe that anime is more than just entertainment it is a cultural phenomenon that
+            brings people together and inspires creativity and imagination. That's why we are dedicated to fostering a
+            vibrant and inclusive anime community where fans can connect, share their passion, and explore the world of
+            anime together.
+            <br> <br>
+
+            &#9734 Thank you for visiting our website, and we hope you enjoy your stay! <br><br>
+
+
+            <center style="color:rgb(242, 136, 49);background-color: rgb(253, 248, 248,0.3);"> &#128151 SHARE ANIME TO YOUR FRIENDS!!</center>
+        </div>
+
+
+    </div>
+    <script>
+        var a = document.getElementById("b");
+        a.addEventListener("click",()=>{
+          document.getElementById("a").classList.toggle("dropdown-content1")
+        })
+      </script>
+</body>
+
+</html>
